@@ -4,3 +4,9 @@
   height: 50px;
   margin-right: 10px;
 }
+
+.form-inline{
+	position:relative;
+	left:30px;
+	
+}

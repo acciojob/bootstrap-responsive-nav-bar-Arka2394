@@ -8,33 +8,84 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Navbar</title>
   </head>
   <body>
 
 	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+ <img src="https://bookface-images.s3.amazonaws.com/logos/096fcb9dd5cc398e73f7e2ff94989741932e2278.png" class="accio-logo">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <img src="https://bookface-images.s3.amazonaws.com/logos/096fcb9dd5cc398e73f7e2ff94989741932e2278.png" class="accio-logo">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Bootcamps
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Popular Bootcamps</a>
+          <a class="dropdown-item" href="#">Bootcamp Developers</a>
+			 <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Bootcamp Financing</a>
+			  <a class="dropdown-item" href="#">Bootcamp Grads and Alumni</a>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Coding
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Coding Tools</a>
+			<div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">HTML</a>
+          <a class="dropdown-item" href="#">CSS</a>
+			  <a class="dropdown-item" href="#">JS</a>
+			<div class="dropdown-divider"></div>
+			 <a class="dropdown-item" href="#">PYTHON</a>
+			 <a class="dropdown-item" href="#">Ruby</a>
+			 <a class="dropdown-item" href="#">C++</a>
+			 <a class="dropdown-item" href="#">Java</a>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Career Resources 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Career Advice</a>
+          <a class="dropdown-item" href="#">Interviews</a>
+			<div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Tech Cities</a>
+			  <a class="dropdown-item" href="#">Tech Salaries</a>
+        </div>
       </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tech Fields
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Web Design</a>
+          <a class="dropdown-item" href="#">Web Developement</a>
+          <a class="dropdown-item" href="#">Software Engineering</a>
+			  <a class="dropdown-item" href="#">Data Science</a>
+        </div>
+      </li>
+            <li class="nav-item dropdown">
+		  <a class="nav-link" href="#" id="navbarDropdownMenuLink" aria-expanded="false">
+        News & Commentary
+        </a>
+		 </li>
+		<li class="nav-item dropdown">
+		<form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+		</li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
